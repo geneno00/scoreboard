@@ -1,0 +1,110 @@
+body {
+    margin: 0 auto;
+    background-color: #1B244A;
+}
+
+.container {
+    width: 0 auto;
+    
+}
+
+.team {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700px;
+    font-size: 60px;
+    color: #EEEEEE;
+}
+
+.score {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    bottom: 20px;
+    background-color: #000;
+}
+
+.guest {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    bottom: 20px;
+    background-color: #000;
+}
+
+.home > h3 {
+    position: absolute;
+    top: -50px;
+    left: 70px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    color: #F94F6D;
+}
+
+.guest > h3 {
+    position: absolute;
+    top: -50px;
+    left: 70px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    color: #F94F6D;
+}
+
+.addition {
+    display: flex;
+    justify-content: space-around;
+}
+
+.addhome {
+    position: relative;
+    left: 110px;
+}
+
+.addhome button {
+    width: 80px;
+    height: 60px;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    background: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.addguest {
+    position: relative;
+    right: 110px;
+}
+
+.addguest button {
+    width: 80px;
+    height: 60px;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    background: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#reset button {
+    margin: 0 auto;
+    display: block;
+    width: 160px;
+    height: 60px;
+    color: #9AABD8;
+    border: 3px solid #9AABD8;
+    background: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+}
+
